@@ -8,7 +8,7 @@ import { Facebook, Instagram, LinkedIn, Twitter } from "@material-ui/icons";
 const Developer = () => {
   return (
     <div className={"Developer"}>
-      <h3 className={"Developer-head"}>Meet the developer</h3>
+      <h3 className={"Developer-head"}>Meet the developers</h3>
       <div className="Developer-profile">
         {/* Developer 1 */}
         <div className="Developer-profileCard">
@@ -20,7 +20,46 @@ const Developer = () => {
           </div>
         </div>
 
-       
+        {/* Developer 2 */}
+        <div className="Developer-profileCard">
+          <img src={AvatarImage1} alt="Profile 2" />
+          <div className={"Card-details"}>
+            <h3>Surya</h3>
+            <p>Frontend Developer</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+
+        {/* Developer 3 */}
+        <div className="Developer-profileCard">
+          <img src={AvatarImage2} alt="Profile 3" />
+          <div className={"Card-details"}>
+            <h3>Yashwantha Rao</h3>
+            <p>Backend Developer</p>
+            <p>Database Expert</p>
+          </div>
+        </div>
+
+        {/* Developer 4 */}
+        <div className="Developer-profileCard">
+          <img src={AvatarImage2} alt="Profile 4" />
+          <div className={"Card-details"}>
+            <h3>Revanth</h3>
+            <p>Frontend Developer</p>
+            <p>MERN Stack Developer </p>
+          </div>
+        </div>
+
+        {/* Developer 5 */}
+        <div className="Developer-profileCard">
+          <img src={AvatarImage2} alt="Profile 5" />
+          <div className={"Card-details"}>
+            <h3>Dhanush</h3>
+            <p>Backend Developer</p>
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+
         {/* Social Media Links */}
         <div className="Developer-profileDetails">
           <p>Connect with us on social media!</p>
