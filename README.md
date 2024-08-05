@@ -1,5 +1,5 @@
 <h1 align="center">
-   Vusic | The music and podcast destination you want.
+   Pulseplay | The music and podcast destination you want.
 </h1>
 
 <div align="center">
