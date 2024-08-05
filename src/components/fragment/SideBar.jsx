@@ -14,10 +14,7 @@ function SideBar() {
                 </p>
                 <SideBarOptions className={"lib-sub"} Icon={HomeOutlined} href={"/home"} title={"Home"} />
                 <SideBarOptions className={"lib-sub"} Icon={ExploreOutlined} href={"/home/about"}  title={"About"}/>
-                <SideBarOptions className={"lib-sub"} Icon={SearchOutlined} href={"/home/search"}  title={"Search"}/>
-                <SideBarOptions className={"lib-sub"} Icon={UpdateOutlined} href={"/home/update"}  title={"Update"}/>
-                <SideBarOptions className={"lib-sub"} Icon={DeleteForeverOutlined} href={"/home/delete"}  title={"Delete"}/>
-                
+                <SideBarOptions className={"lib-sub"} Icon={SearchOutlined} href={"/home/search"}  title={"Search"}/>                
 
                 {/* <SideBarOptions className={"lib-sub"} Icon={AlbumIcon} href={"/home/album"}  title={"Album"}/>
                 <SideBarOptions className={"lib-sub"} Icon={EmojiPeopleIcon} href={"/home/artist"}  title={"Artist"}/> */}
