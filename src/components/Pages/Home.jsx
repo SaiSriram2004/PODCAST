@@ -31,10 +31,6 @@ function getCurrPage(pathName) {
             return <AddMusic/>
         case "/home/about":
             return <About/>
-        case "/home/update":
-            return <Update/>
-        case "/home/delete":
-            return <Delete/>
         default:
             if (pathName.startsWith("/home/playlist/")) {
                 return <Playlist/>
